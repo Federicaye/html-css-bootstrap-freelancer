@@ -34,3 +34,18 @@
 .card:hover .card:after {
     opacity: 1;
 }
+
+.star {
+    position: relative;
+}
+
+.star:before {
+    content: "";
+    width: 30px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: ;
+}
