@@ -16,16 +16,17 @@
 }
 
 .card:after {
-    content: "\f065";
-    font-size: 40px;
-    font-family: "Font Awesome 5 free";
+    content: "\f04b";
+    
+    font-family: "Font Awesome";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    color: white;
     background-color: rgba(0, 0, 0, 0.5); 
-    opacity: 1;
+    opacity: 0;
     transition: opacity;
 
 }
