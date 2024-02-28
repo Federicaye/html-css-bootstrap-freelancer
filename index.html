@@ -12,6 +12,32 @@
 
 <body>
     <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </div>
+        </nav>
+
         <!-- nav-expand-lg cancello il form ms-auto mstart auto -->
         <!-- text-white ad a dentro li -->
     </header> <!-- prendi background da bootstrap -->
@@ -19,12 +45,13 @@
         <section id="hero" class="odd">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-11 col-md-10 col-xl-9 text-center text-capitalize ">
+                    <div class="col-11 col-md-10 col-xl-9 text-center text-uppercase">
+                        <img src="img/avatar.svg" alt="avatar" class="img-fluid w-25">
                         <p>start bootstrap</p>
                         <p>graphic artist - web designer - illustrator</p>
                     </div>
 
-            </div>
+                </div>
         </section>
         <section id="portfolio">
             <div class="container">
@@ -119,7 +146,7 @@
         </section>
     </main>
     <footer>
-        <div class="footer-top">
+        <div class="footer-top bg-black text-light ">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-11 col-md-10 col-xl-9">
@@ -141,8 +168,10 @@
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <div class="container"></div>
+        <div class="footer-bottom text-light bg-dark ">
+            <div class="container text-center">
+                Copyright Your Website 2019
+            </div>
         </div>
     </footer>
     <!-- a 768 va tutto in colonna -->
