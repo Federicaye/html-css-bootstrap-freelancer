@@ -38,6 +38,7 @@
 .star {
     position: relative;
     display: block;
+    width: 50%;
 }
 
 .star:before {
